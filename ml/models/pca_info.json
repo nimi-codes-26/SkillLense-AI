@@ -1,0 +1,21 @@
+{
+  "n_components": 2,
+  "fitted_on": "X_train_scaled (Stage 3 split, Stage 3 scaler)",
+  "feature_list": [
+    "cgpa",
+    "coding_skill",
+    "dsa_skill",
+    "math_aptitude",
+    "communication_skill",
+    "security_knowledge",
+    "projects_count",
+    "internships_count",
+    "certifications_count"
+  ],
+  "explained_variance_ratio": {
+    "PC1": 0.4689,
+    "PC2": 0.1146
+  },
+  "cumulative_explained_variance_pc1_pc2": 0.5835,
+  "note": "This PCA model is for visualization/dimensionality reduction only. It is not used by the classifier or the career alignment engine, and it does not represent or prove real-world career categories."
+}
