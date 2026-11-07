@@ -1,0 +1,28 @@
+{
+  "selected_model": "Random Forest",
+  "feature_list": [
+    "cgpa",
+    "coding_skill",
+    "dsa_skill",
+    "math_aptitude",
+    "communication_skill",
+    "security_knowledge",
+    "projects_count",
+    "internships_count",
+    "certifications_count"
+  ],
+  "target_name": "skill_category",
+  "target_categories": [
+    "Needs Improvement",
+    "Strong Technical",
+    "Balanced",
+    "Strong Overall"
+  ],
+  "evaluation_metrics": {
+    "accuracy": 0.9667,
+    "precision_weighted": 0.9686,
+    "recall_weighted": 0.9667,
+    "f1_weighted": 0.9665
+  },
+  "note": "target_categories are K-Means-derived pseudo-labels from Stage 4, not real-world ground truth. evaluation_metrics measure how well the classifier reproduces the clustering-based labels, not real-world career readiness, employability, or success."
+}
