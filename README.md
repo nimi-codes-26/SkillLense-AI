@@ -9,7 +9,7 @@ Students often have limited visibility into how their current academic, technica
 - A predicted **skill category**, based on a classifier trained on patterns discovered in the data.
 - A **career alignment score** against a fixed set of career roles, including a best-match role and a per-role skill-gap breakdown.
 
-The career-role set currently covers five roles (Software Developer, Data Analyst, ML Engineer, Web Developer, Cybersecurity Analyst) built on a synthetic training dataset. It is not a universal career predictor — see [Limitations](#limitations).
+The career-role set currently covers five roles (Software Developer, Data Analyst, ML Engineer, Web Developer, Cybersecurity Analyst) built on a synthetic training dataset. It is not a universal career predictor - see [Limitations](#limitations).
 
 ## Features
 
