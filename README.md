@@ -1,4 +1,4 @@
-# SkillLens AI
+a# SkillLens AI
 
 Skill intelligence platform that turns a student's self-reported profile into a skill category, career alignment score, and a prioritized list of skill gaps.
 
