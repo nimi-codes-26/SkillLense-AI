@@ -4,12 +4,37 @@ Skill intelligence platform that turns a student's self-reported profile into a 
 
 ## Overview
 
-Students often have limited visibility into how their current academic, technical, and professional skills line up with different career paths, or where the biggest gaps are. SkillLens AI takes a 9-field skill profile and returns:
+SkillLens AI is a machine learning-based student skill gap analysis and career readiness support system.
 
-- A predicted **skill category**, based on a classifier trained on patterns discovered in the data.
-- A **career alignment score** against a fixed set of career roles, including a best-match role and a per-role skill-gap breakdown.
+It analyzes student academic, technical and experience-related attributes to identify skill categories, evaluate career alignment and highlight areas for improvement.
 
-The career-role set currently covers five roles (Software Developer, Data Analyst, ML Engineer, Web Developer, Cybersecurity Analyst) built on a synthetic training dataset. It is not a universal career predictor .
+The project uses the Student Placement Prediction Dataset 2026 from Kaggle, containing 100,000 records and 26 columns. Seven selected input features are used for student skill analysis and prediction.
+
+The system combines a Random Forest classifier for skill category prediction with a rule-based career alignment and skill gap analysis engine.
+
+## Dataset and Input Features
+
+Dataset: Student Placement Prediction Dataset 2026
+
+Source: Kaggle
+
+Dataset size: 100,000 records
+
+Total columns: 26
+
+Selected input features: 7
+
+The seven input features are:
+
+- CGPA
+- Coding Skill
+- Math Aptitude
+- Communication Skill
+- Projects Count
+- Internships Count
+- Certifications Count
+
+Dataset source: https://www.kaggle.com/datasets/sehaj1104/student-placement-prediction-dataset-2026
 
 ## Features
 
